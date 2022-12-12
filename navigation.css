@@ -3,15 +3,12 @@ a {
     text-decoration: none;
     padding: 10px;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    transition: 1s;
+    /* transition: 1s; */
 }
-a:active {
+a:hover {
     background-color: rgb(233, 215, 249);
 }
 
-a:visited {
-    color: blueviolet;
-}
 header {
     height: 80px;
     background-color: rgb(253, 253, 188);
