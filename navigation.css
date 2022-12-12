@@ -3,6 +3,14 @@ a {
     text-decoration: none;
     padding: 10px;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    transition: 1s;
+}
+a:active {
+    background-color: rgb(233, 215, 249);
+}
+
+a:visited {
+    color: blueviolet;
 }
 header {
     height: 80px;
@@ -28,3 +36,4 @@ header img {
     color: rgb(67, 39, 39);
     text-decoration: none;
 }
+
